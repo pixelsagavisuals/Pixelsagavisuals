@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070912"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#11152a"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#11182a"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b7cf6"/>
+      <stop offset="1" stop-color="#b8b0ff"/>
+    </linearGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="smallblur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- peaceful night background -->
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="105" r="62" fill="#ddd9ff" opacity=".12" filter="url(#soft)">
+    <animate attributeName="opacity" values=".08;.16;.08" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1010" cy="105" r="48" fill="#e9e6ff" opacity=".92"/>
+  <circle cx="992" cy="91" r="48" fill="#0b1020"/>
+
+  <!-- stars with subtle twinkle -->
+  <g fill="#dcd8ff">
+    <circle cx="95" cy="90" r="2"><animate attributeName="opacity" values=".25;1;.25" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="150" r="1.5"><animate attributeName="opacity" values="1;.25;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="78" r="2"><animate attributeName="opacity" values=".2;.9;.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="125" r="1.5"><animate attributeName="opacity" values=".9;.2;.9" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="68" r="2"><animate attributeName="opacity" values=".25;1;.25" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="770" cy="145" r="1.5"><animate attributeName="opacity" values="1;.25;1" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="55" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1110" cy="180" r="2"><animate attributeName="opacity" values=".9;.25;.9" dur="4.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- top identity -->
+  <text x="600" y="66" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">ARPIT SINGH</text>
+  <text x="600" y="94" text-anchor="middle" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">AI ARTIST  •  VIBE CODER  •  CREATOR  •  DESIGNER  •  ANDROID</text>
+
+  <!-- left peaceful desk / laptop -->
+  <rect x="62" y="205" width="490" height="330" rx="22" fill="url(#panel)" stroke="#272d46"/>
+  <text x="92" y="245" fill="#c7c2ef" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">QUIET NIGHT • BUILDING IDEAS</text>
+  <text x="92" y="278" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Student by day</text>
+  <text x="92" y="308" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="17">Vibe Coder by night</text>
+
+  <!-- laptop -->
+  <rect x="90" y="338" width="360" height="145" rx="10" fill="#060811" stroke="#3b4160" stroke-width="3"/>
+  <rect x="105" y="353" width="330" height="105" rx="6" fill="#0d1324"/>
+  <g font-family="monospace" font-size="11">
+    <text x="122" y="374" fill="#aaa4d8">fun buildIdeas() {</text>
+    <text x="122" y="394" fill="#d9d6f7">  create("Wallzivo")</text>
+    <text x="122" y="414" fill="#aaa4d8">  explore("AI + Art")</text>
+    <text x="122" y="434" fill="#d9d6f7">  build("Android")</text>
+    <text x="122" y="450" fill="#aaa4d8">}</text>
+  </g>
+  <rect x="437" y="438" width="2" height="13" fill="#c8c2ff">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M70 493 H470 L505 515 H35 Z" fill="#171c2c" stroke="#343a55"/>
+
+  <!-- warm desk lamp -->
+  <path d="M480 350 L515 350 L540 425 L455 425 Z" fill="#242a3c"/>
+  <path d="M470 425 Q497 395 525 425" fill="#b8b0ff" opacity=".28">
+    <animate attributeName="opacity" values=".18;.35;.18" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- right profile panels -->
+  <rect x="585" y="205" width="555" height="330" rx="22" fill="url(#panel)" stroke="#272d46"/>
+
+  <text x="620" y="245" fill="#ffffff" font-family="Arial, sans-serif" font-size="21" font-weight="700">ABOUT ME</text>
+  <line x1="620" y1="260" x2="1095" y2="260" stroke="#303650"/>
+
+  <g font-family="Arial, sans-serif" font-size="16">
+    <text x="625" y="293" fill="#d9d6f7">📚  Student by day</text>
+    <text x="625" y="321" fill="#d9d6f7">💻  Vibe Coder by night</text>
+    <text x="625" y="349" fill="#d9d6f7">🎨  AI Artist</text>
+    <text x="625" y="377" fill="#d9d6f7">✨  Creator &amp; Designer</text>
+    <text x="625" y="405" fill="#d9d6f7">📱  Android Builder</text>
+  </g>
+
+  <text x="850" y="293" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">PIXELSAGA VISUALS</text>
+  <text x="850" y="320" fill="#ffffff" font-family="Arial, sans-serif" font-size="15">AI Art • Digital Design</text>
+  <text x="850" y="345" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="14">Wallpapers • Visual Experiments</text>
+
+  <text x="850" y="390" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">WALLZIVO</text>
+  <text x="850" y="417" fill="#ffffff" font-family="Arial, sans-serif" font-size="15">Website + Android App</text>
+  <text x="850" y="442" fill="#aaa4d8" font-family="monospace" font-size="13">wallzivo.com</text>
+
+  <!-- subtle floating creative particles -->
+  <g fill="#aaa4d8">
+    <circle cx="565" cy="170" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 8 -14; 0 0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="560" cy="555" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -7 12; 0 0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1145" cy="570" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -9 -12; 0 0" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- lower information strip -->
+  <rect x="62" y="565" width="1078" height="95" rx="18" fill="#0a0f1d" stroke="#272d46"/>
+  <text x="88" y="594" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">WHAT I BUILD</text>
+  <text x="88" y="622" fill="#ffffff" font-family="Arial, sans-serif" font-size="15">AI  •  Apps  •  Websites  •  Creative Digital Experiences</text>
+
+  <text x="560" y="594" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">TOOLS &amp; TECHNOLOGIES</text>
+  <text x="560" y="622" fill="#ffffff" font-family="Arial, sans-serif" font-size="15">Android  •  Kotlin  •  Supabase  •  GitHub  •  AI Tools</text>
+
+  <!-- moving "idea" particle / gentle shooting-game reference -->
+  <g>
+    <circle cx="650" cy="170" r="4" fill="#c8c2ff">
+      <animate attributeName="cx" values="650;830;650" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".2;1;.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="845" y="164" width="12" height="12" rx="2" fill="#aaa4d8" opacity=".65">
+      <animate attributeName="opacity" values=".3;1;.3" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="600" y="694" text-anchor="middle" fill="#aaa4d8" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">LEARNING  •  BUILDING  •  CREATING</text>
+</svg>
